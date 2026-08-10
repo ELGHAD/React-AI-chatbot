@@ -21,18 +21,6 @@ Ce projet s'adresse aux recruteurs souhaitant évaluer des compétences frontend
 
 ---
 
-## Point d'attention important — à corriger avant publication
-
-> Ce projet appelle l'API OpenAI **directement depuis le navigateur**, ce qui signifie que la clé API doit être exposée côté client pour fonctionner. C'est une pratique courante pour un prototype rapide, mais **jamais acceptable en production** : n'importe qui peut inspecter le code source de la page et récupérer la clé, avec un risque direct de facturation frauduleuse sur ton compte OpenAI.
->
-> Le dépôt contient également un fichier `.env` versionné sur GitHub. Si une vraie clé API s'y trouve (même expirée ou de test), il faut la révoquer immédiatement sur le tableau de bord OpenAI, puis retirer `.env` du suivi Git (`git rm --cached .env`) et l'ajouter à `.gitignore`.
->
-> Pour un recruteur technique — en particulier dans le secteur bancaire ou une ESN sensible à la sécurité — un `.env` versionné sur un repo public est le genre de détail qui saute immédiatement aux yeux. Corriger ce point avant de partager le lien renforce directement ta crédibilité.
-
-Une architecture de production recommandée consisterait à faire transiter les appels OpenAI par un petit backend (proxy API) qui garde la clé secrète côté serveur — un ajout qui, en plus de corriger le problème, donnerait au projet une dimension fullstack supplémentaire à mettre en avant.
-
----
-
 ## Fonctionnalités clés
 
 - Interface de chat moderne avec bulles de messages
