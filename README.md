@@ -18,20 +18,6 @@ Ce projet est une démonstration frontend d'une interface de chat conversationne
 
 Ce projet s'adresse aux recruteurs souhaitant évaluer des compétences frontend React modernes (hooks, Vite, intégration d'API tierce), dans le contexte d'une **démo technique** plutôt que d'une application de production.
 
----
-
-## Aperçu visuel
-
-<!--
-  Ajoute tes captures d'écran dans un dossier docs/screenshots/ à la racine du projet,
-  puis remplace les chemins ci-dessous par les noms de tes fichiers.
-  Exemple : docs/screenshots/chat-light.png
--->
-
-<p align="center">
-  <img src="docs/screenshots/chat-light.png" alt="Interface en mode clair" width="45%" />
-  <img src="docs/screenshots/chat-dark.png" alt="Interface en mode sombre" width="45%" />
-</p>
 
 ---
 
