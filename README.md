@@ -103,7 +103,7 @@ npm install
 
 ### 3. Configure Environment Variables
 
-Create a `.env` file in the project root:
+Copy `.env.example` to `.env` in the project root:
 
 ```env
 VITE_OPENAI_API_KEY=your_openai_api_key
@@ -145,7 +145,7 @@ npm run preview
 React-AI-chatbot/
 ├── public/              # Static assets
 ├── src/                 # React components and application logic
-├── .env                 # Local environment variables
+├── .env.example         # Template for local environment variables
 ├── eslint.config.js     # ESLint configuration
 ├── index.html           # HTML entry point
 ├── package.json         # Dependencies and npm scripts
